@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+/* Navigation */
+
+header {
+    background-color: #2e7d32;
+    padding: 15px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #c8e6c9;
+}
+
+
+/* Home */
+
+.hero {
+    height: 500px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("./Food.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero-content {
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #ff9800;
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* Sections */
+
+section {
+    padding: 60px 10%;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #2e7d32;
+}
+
+.about-text {
+    text-align: center;
+    max-width: 850px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* Statistics */
+
+.statistics {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: #e8f5e9;
+}
+
+.stat-box {
+    background-color: white;
+    width: 220px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.stat-box h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+
+/* Steps */
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.step {
+    background-color: white;
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+    background-color: #2e7d32;
+    color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    font-size: 22px;
+}
+
+.step h3 {
+    margin: 15px;
+    color: #2e7d32;
+}
+
+.step p {
+    line-height: 1.6;
+}
+
+
+/* Table */
+
+.available {
+    background-color: #e8f5e9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #2e7d32;
+    color: white;
+}
+
+
+/* Donation Form */
+
+form {
+    max-width: 650px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background-color: #2e7d32;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1b5e20;
+}
+
+#successMessage {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* Contact */
+
+#contact {
+    text-align: center;
+    background-color: #e8f5e9;
+}
+
+#contact p {
+    margin: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 8px;
+}

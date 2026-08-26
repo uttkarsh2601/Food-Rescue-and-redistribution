@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Food Rescue & Redistribution</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./food rescue & distribution logo.png" alt="" class="logo img">
+                Food Rescue
+            </div>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#how">How It Works</a></li>
+                <li><a href="#donate">Donate Food</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h1>Food Rescue & Redistribution</h1>
+
+            <p>
+                Rescue surplus food, reduce food waste,
+                and help feed people in need.
+            </p>
+
+            <a href="#donate" class="button">
+                Donate Food
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+
+    <section id="about">
+
+        <h2>About Food Rescue</h2>
+
+        <p class="about-text">
+            Food Rescue and Redistribution is a social initiative
+            that connects people and organizations having surplus
+            food with NGOs, volunteers and communities that need it.
+            Our goal is to reduce food waste and make sure that
+            edible food reaches people instead of being thrown away.
+        </p>
+
+    </section>
+
+
+    <!-- Statistics -->
+
+    <section class="statistics">
+
+        <div class="stat-box">
+            <h2>1,250+</h2>
+            <p>Meals Rescued</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>450+</h2>
+            <p>People Helped</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>85+</h2>
+            <p>Food Donors</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>35+</h2>
+            <p>Volunteers</p>
+        </div>
+
+    </section>
+
+
+    <!-- How It Works -->
+
+    <section id="how">
+
+        <h2>How It Works</h2>
+
+        <div class="steps">
+
+            <div class="step">
+                <div class="number">1</div>
+                <h3>Donate</h3>
+                <p>
+                    Restaurants, hotels and individuals
+                    register their surplus food.
+                </p>
+            </div>
+
+
+            <div class="step">
+                <div class="number">2</div>
+                <h3>Rescue</h3>
+                <p>
+                    Volunteers collect the donated food
+                    from the specified location.
+                </p>
+            </div>
+
+
+            <div class="step">
+                <div class="number">3</div>
+                <h3>Redistribute</h3>
+                <p>
+                    The rescued food is delivered to
+                    people and communities in need.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Available Food -->
+
+    <section class="available">
+
+        <h2>Available Food Donations</h2>
+
+        <table>
+
+            <tr>
+                <th>Food Item</th>
+                <th>Quantity</th>
+                <th>Location</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>Rice & Dal</td>
+                <td>30 Meals</td>
+                <td>Pune</td>
+                <td>Available</td>
+            </tr>
+
+            <tr>
+                <td>Vegetable Biryani</td>
+                <td>25 Meals</td>
+                <td>Shivajinagar</td>
+                <td>Available</td>
+            </tr>
+
+            <tr>
+                <td>Chapati & Sabji</td>
+                <td>40 Meals</td>
+                <td>Kothrud</td>
+                <td>Available</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <!-- Donation Form -->
+
+    <section id="donate">
+
+        <h2>Donate Surplus Food</h2>
+
+        <form id="donationForm">
+
+            <label>Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+
+            <label>Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter phone number" required>
+
+
+            <label>Food Item</label>
+            <input type="text" id="food" placeholder="Example: Rice, Chapati, Biryani" required>
+
+
+            <label>Quantity</label>
+            <input type="text" id="quantity" placeholder="Example: 30 meals" required>
+
+
+            <label>Pickup Location</label>
+            <input type="text" id="location" placeholder="Enter pickup location" required>
+
+
+            <label>Food Type</label>
+
+            <select id="foodType">
+
+                <option value="">Select Food Type</option>
+                <option>Cooked Food</option>
+                <option>Packaged Food</option>
+                <option>Fruits & Vegetables</option>
+                <option>Bakery Items</option>
+
+            </select>
+
+
+            <label>Additional Information</label>
+
+            <textarea
+                id="message"
+                placeholder="Enter additional information">
+            </textarea>
+
+
+            <button type="submit">
+                Submit Donation
+            </button>
+
+        </form>
+
+        <p id="successMessage"></p>
+
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>
+            Email: foodrescue@gmail.com
+        </p>
+
+        <p>
+            Phone: +91 91757 72731
+        </p>
+
+        <p>
+            Location: Raigad, Maharashtra
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Food Rescue & Redistribution
+        </p>
+
+        <p>
+            Reduce Food Waste • Rescue Food • Feed People
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
